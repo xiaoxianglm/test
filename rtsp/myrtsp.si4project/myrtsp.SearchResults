@@ -1,0 +1,8 @@
+---- Connecting to server Matches (1 in 1 files) ----
+connect2Server in mytcp.c :     printf ("Connecting to server %s[%s]: %d...\n", host, buf, port);
+---- CSeq mismatch Matches (1 in 1 files) ----
+rtsp_get_answers in myrtsp.c :         printf("librtsp: warning: CSeq mismatch. got %u, assumed %u", answer_seq, s->cseq);
+---- CSeq mismatch Matches (1 in 1 files) ----
+rtsp_get_answers in myrtsp.c :         printf("librtsp: warning: CSeq mismatch. got %u, assumed %u", answer_seq, s->cseq);
+---- ealMedia Player Version 6.0.9.1235 Matches (1 in 1 files) ----
+rtsp_connect in myrtsp.c :     s->user_agent=strdup("User-Agent: RealMedia Player Version 6.0.9.1235 (linux-2.0-libc6-i386-gcc2.95)");
